@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoomfor Serrure - Serrurier 24/7 à Fribourg</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        header { background-color: #1a202c; color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #f6ad55; }
+        .btn-call { background-color: #e53e3e; color: white; padding: 10px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.1rem; display: inline-block; transition: background 0.3s; }
+        .btn-call:hover { background-color: #c53030; }
+        .hero { background: linear-gradient(rgba(26, 32, 44, 0.8), rgba(26, 32, 44, 0.9)), url('https://images.unsplash.com/photo-1558021211-6d1403321394?auto=format&fit=crop&q=80') center/cover; color: white; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .hero .badge { background-color: #f6ad55; color: #1a202c; padding: 5px 15px; border-radius: 20px; font-weight: bold; display: inline-block; margin-bottom: 20px; }
+        .services { padding: 80px 0; background-color: white; }
+        .section-title { text-align: center; font-size: 2rem; margin-bottom: 50px; color: #1a202c; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #f8f9fa; padding: 30px; border-radius: 10px; border-left: 5px solid #e53e3e; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin-bottom: 15px; color: #1a202c; }
+        .contact { background-color: #1a202c; color: white; padding: 60px 0; text-align: center; }
+        .contact p { font-size: 1.2rem; margin-bottom: 10px; }
+        .contact .big-phone { font-size: 2.5rem; font-weight: bold; color: #f6ad55; text-decoration: none; display: block; margin: 20px 0; }
+        .contact .big-phone:hover { color: #ed8936; }
+        .footer-bottom { background-color: #0d1117; color: #a0aec0; text-align: center; padding: 20px 0; font-size: 0.9rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .header-content { flex-direction: column; gap: 15px; text-align: center; } .contact .big-phone { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">🔧 Hoomfor Serrure</div>
+            <a href="tel:+41767881127" class="btn-call">📞 076 788 11 27</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="badge">Ouvert 24h/24 - 7j/7</div>
+            <h1>Votre Serrurier d'Urgence à Fribourg et Berne</h1>
+            <p>Porte claquée, clé cassée ou besoin de sécuriser votre domicile ? Notre équipe intervient rapidement pour tous vos problèmes de serrurerie, sans dégât et à prix transparent.</p>
+            <a href="tel:+41767881127" class="btn-call" style="font-size: 1.3rem; padding: 15px 30px;">Appeler un Serrurier</a>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🚪 Ouverture de Porte</h3>
+                    <p>Porte claquée ? Intervention rapide et sans dégât pour vous permettre de rentrer chez vous en toute sécurité.</p>
+                </div>
+                <div class="card">
+                    <h3>🔒 Changement de Serrure</h3>
+                    <p>Remplacement de cylindre, mise à niveau de sécurité. Nous installons des serrures multipoints de haute qualité.</p>
+                </div>
+                <div class="card">
+                    <h3>🛡️ Blindage & Sécurité</h3>
+                    <p>Après un cambriolage ou pour prévenir les intrusions, nous sécurisons vos portes et installons des systèmes anti-effraction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <h2>Une urgence ? Nous sommes là.</h2>
+            <p>Zones desservies : Fribourg, Berne et cantons limitrophes.</p>
+            <a href="tel:+41767881127" class="big-phone">📞 076 788 11 27</a>
+            <p>Appel direct - Disponible 24h/24 et 7j/7</p>
+        </div>
+    </section>
+    <div class="footer-bottom">
+        <div class="container">
+            &copy; 2024 Hoomfor Serrure. Tous droits réservés. | Expert en serrurerie en Suisse.
+        </div>
+    </div>
+</body>
+</html>
